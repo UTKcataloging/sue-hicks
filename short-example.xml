@@ -1,0 +1,186 @@
+<modsCollection xmlns="http://www.loc.gov/mods/v3" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.loc.gov/mods/v3 http://www.loc.gov/standards/mods/v3/mods-3-5.xsd">
+	<mods xmlns="http://www.loc.gov/mods/v3" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.loc.gov/mods/v3 http://www.loc.gov/standards/mods/v3/mods-3-5.xsd">
+		<abstract>Sermon by Sue K. Hicks elder brother, Ira</abstract>
+		<abstract>null</abstract>
+		<abstract>null</abstract>
+		<relatedItem displayLabel="Collection" type="host">
+			<titleInfo>
+				<title>Sue K. Hicks Papers</title>
+			</titleInfo>
+			<identifier>MPA.0136</identifier>
+		</relatedItem>
+		<relatedItem displayLabel="Project" type="host">
+			<titleInfo>
+				<title>Of Monkeys and Men: Public and Private Views from the Scopes Trial</title>
+			</titleInfo>
+		</relatedItem>
+		<genre>null</genre>
+		<genre>null</genre>
+		<genre>null</genre>
+		<relatedItem type="host">
+			<titleInfo>
+				<title>null</title>
+			</titleInfo>
+		</relatedItem>
+		<identifier>null</identifier>
+		<identifier>null</identifier>
+		<identifier type="filename">0012_000416_000001</identifier>
+		<identifier type="filename">null</identifier>
+		<identifier type="opac">null</identifier>
+		<typeOfResource>null</typeOfResource>
+		<language>
+			<languageTerm type="code" authority="iso639-2b">eng</languageTerm>
+		</language>
+		<language>
+			<languageTerm type="code" authority="iso639-2b">null</languageTerm>
+		</language>
+		<language>
+			<languageTerm type="code" authority="iso639-2b">null</languageTerm>
+		</language>
+		<recordInfo>
+			<recordIdentifier>record_0012_000416_000001</recordIdentifier>
+			<recordContentSource>University of Tennessee, Knoxville. Libraries</recordContentSource>
+			<languageOfCataloging>
+				<languageTerm type="code" authority="iso639-2b">eng</languageTerm>
+			</languageOfCataloging>
+			<recordOrigin>Created and edited in general conformance to MODS Guidelines (Version 3.5).</recordOrigin>
+		</recordInfo>
+		<location>
+			<physicalLocation>University of Tennessee, Knoxville.  Special Collections</physicalLocation>
+			<holdingSimple>
+				<copyInformation>
+					<shelfLocator>Box 5, Folder 1</shelfLocator>
+				</copyInformation>
+			</holdingSimple>
+		</location>
+		<titleInfo>
+			<title>SHOULD EVOLUTION BE TAUGHT IN THE PUBLIC SCHOOLS</title>
+		</titleInfo>
+		<titleInfo type="alternative">
+			<title>null</title>
+		</titleInfo>
+		<name>
+			<namePart>Hicks, Ira Evans | http://id.loc.gov/authorities/names/no97062710</namePart>
+			<role>
+				<roleTerm>Creator</roleTerm>
+			</role>
+		</name>
+		<name>
+			<namePart>null</namePart>
+			<role>
+				<roleTerm>null</roleTerm>
+			</role>
+		</name>
+		<name>
+			<namePart>null</namePart>
+			<role>
+				<roleTerm>null</roleTerm>
+			</role>
+		</name>
+		<name>
+			<namePart>null</namePart>
+			<role>
+				<roleTerm>null</roleTerm>
+			</role>
+		</name>
+		<name>
+			<namePart>null</namePart>
+			<role>
+				<roleTerm>null</roleTerm>
+			</role>
+		</name>
+		<subject>
+			<topic>Bible and evolution</topic>
+		</subject>
+		<subject>
+			<topic>null</topic>
+		</subject>
+		<subject>
+			<topic>null</topic>
+		</subject>
+		<subject>
+			<topic>null</topic>
+		</subject>
+		<subject>
+			<topic>null</topic>
+		</subject>
+		<subject>
+			<topic>null</topic>
+		</subject>
+		<subject>
+			<geographic>null</geographic>
+		</subject>
+		<subject>
+			<geographic>null</geographic>
+		</subject>
+		<subject>
+			<geographic>null</geographic>
+		</subject>
+		<subject>
+			<geographic>null</geographic>
+		</subject>
+		<subject>
+			<geographic>null</geographic>
+		</subject>
+		<subject>
+			<geographic>null</geographic>
+		</subject>
+		<subject>
+			<name>
+				<namePart>null</namePart>
+			</name>
+		</subject>
+		<subject>
+			<name>
+				<namePart>null</namePart>
+			</name>
+		</subject>
+		<subject>
+			<name>
+				<namePart>null</namePart>
+			</name>
+		</subject>
+		<subject>
+			<name>
+				<namePart>null</namePart>
+			</name>
+		</subject>
+		<subject>
+			<name>
+				<namePart>null</namePart>
+			</name>
+		</subject>
+		<subject>
+			<name>
+				<namePart>null</namePart>
+			</name>
+		</subject>
+		<note>null</note>
+		<note>null</note>
+		<note>null</note>
+		<note type="ownership">null</note>
+		<originInfo>
+			<publisher>null</publisher>
+			<dateCreated>[1925]</dateCreated>
+			<dateCreated keyDate="yes" encoding="edtf">null</dateCreated>
+			<place>
+				<placeTerm type="text">Toms River, NJ</placeTerm>
+			</place>
+			<place>
+				<placeTerm type="text">null</placeTerm>
+			</place>
+			<place>
+				<placeTerm type="text">null</placeTerm>
+			</place>
+		</originInfo>
+		<physicalDescription>
+			<extent>1 sermon (7 pages)</extent>
+			<digitalOrigin>reformatted digital</digitalOrigin>
+			<form>sermons</form>
+			<form>null</form>
+			<form>null</form>
+		</physicalDescription>
+		<accessCondition>Public domain.</accessCondition>
+		<note displayLabel="Transcription">null</note>
+	</mods>
+</modsCollection>
