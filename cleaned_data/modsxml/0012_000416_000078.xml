@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<mods xmlns:xlink="http://www.w3.org/1999/xlink"
-      xmlns:xs="http://www.w3.org/2001/XMLSchema"
+<mods xmlns="http://www.loc.gov/mods/v3"
       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
-      xmlns="http://www.loc.gov/mods/v3"
+      xmlns:xlink="http://www.w3.org/1999/xlink"
+      xmlns:xs="http://www.w3.org/2001/XMLSchema"
       xsi:schemaLocation="http://www.loc.gov/mods/v3 http://www.loc.gov/standards/mods/v3/mods-3-5.xsd">
    <abstract>Typewritten notes listing citations on W.B. Marr's stationery; note added at end in pencil</abstract>
    <relatedItem displayLabel="Collection" type="host">
@@ -37,14 +37,8 @@
       </holdingSimple>
    </location>
    <titleInfo>
-      <title>\Cases of State of Tennessee vs. J. T. Scopes\</title>
+      <title>"Cases of State of Tennessee vs. J. T. Scopes"</title>
    </titleInfo>
-   <name>
-      <namePart>Marr, W.B.</namePart>
-      <role>
-         <roleTerm>Attributed name</roleTerm>
-      </role>
-   </name>
    <subject>
       <topic>Scopes, John Thomas--Trials, litigation, etc.</topic>
    </subject>

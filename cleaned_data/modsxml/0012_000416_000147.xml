@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<mods xmlns:xlink="http://www.w3.org/1999/xlink"
-      xmlns:xs="http://www.w3.org/2001/XMLSchema"
+<mods xmlns="http://www.loc.gov/mods/v3"
       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
-      xmlns="http://www.loc.gov/mods/v3"
+      xmlns:xlink="http://www.w3.org/1999/xlink"
+      xmlns:xs="http://www.w3.org/2001/XMLSchema"
       xsi:schemaLocation="http://www.loc.gov/mods/v3 http://www.loc.gov/standards/mods/v3/mods-3-5.xsd">
    <abstract>Hicks at podium for event supporting Estes Kefauver; Kefauver and unidentified man seated.</abstract>
    <relatedItem displayLabel="Collection" type="host">
@@ -37,16 +37,11 @@
       </holdingSimple>
    </location>
    <titleInfo>
-      <title>Hicks speaking at \Bradley for Kefauver\ event</title>
+      <title>Hicks speaking at "Bradley for Kefauver" event</title>
    </titleInfo>
-   <name>
-      <namePart>Waddell Studio</namePart>
-      <role>
-         <roleTerm>Photographer</roleTerm>
-      </role>
-   </name>
    <subject>
-      <name authority="naf" valueURI="http://id.loc.gov/authorities/names/n79144615">
+      <name authority="naf"
+            valueURI="http://id.loc.gov/authorities/names/n79144615">
          <namePart>Kefauver, Estes, 1903-1963</namePart>
       </name>
    </subject>

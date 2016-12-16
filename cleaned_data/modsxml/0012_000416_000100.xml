@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<mods xmlns:xlink="http://www.w3.org/1999/xlink"
-      xmlns:xs="http://www.w3.org/2001/XMLSchema"
+<mods xmlns="http://www.loc.gov/mods/v3"
       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
-      xmlns="http://www.loc.gov/mods/v3"
+      xmlns:xlink="http://www.w3.org/1999/xlink"
+      xmlns:xs="http://www.w3.org/2001/XMLSchema"
       xsi:schemaLocation="http://www.loc.gov/mods/v3 http://www.loc.gov/standards/mods/v3/mods-3-5.xsd">
    <abstract>Typewritten manuscript quotes many geologists opposing evolution.</abstract>
    <relatedItem displayLabel="Collection" type="host">
@@ -39,12 +39,6 @@
    <titleInfo>
       <title>TESTIMONY OF GEOLOGISTS</title>
    </titleInfo>
-   <name>
-      <namePart>unknown</namePart>
-      <role>
-         <roleTerm>Creator</roleTerm>
-      </role>
-   </name>
    <subject>
       <topic>Evolution (Biology)--Religious aspects--Christianity</topic>
    </subject>

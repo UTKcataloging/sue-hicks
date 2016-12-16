@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<mods xmlns:xlink="http://www.w3.org/1999/xlink"
-      xmlns:xs="http://www.w3.org/2001/XMLSchema"
+<mods xmlns="http://www.loc.gov/mods/v3"
       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
-      xmlns="http://www.loc.gov/mods/v3"
+      xmlns:xlink="http://www.w3.org/1999/xlink"
+      xmlns:xs="http://www.w3.org/2001/XMLSchema"
       xsi:schemaLocation="http://www.loc.gov/mods/v3 http://www.loc.gov/standards/mods/v3/mods-3-5.xsd">
    <abstract>Discusses religion, Clarence Darrow, and mailing a copy of his book \I object\</abstract>
    <relatedItem displayLabel="Collection" type="host">
@@ -39,12 +39,6 @@
    <titleInfo>
       <title>Telegram from Leach Weiss to William Jennings Bryant [sic]</title>
    </titleInfo>
-   <name>
-      <namePart>Weiss, Leach</namePart>
-      <role>
-         <roleTerm>Creator</roleTerm>
-      </role>
-   </name>
    <subject>
       <topic>Scopes, John Thomas--Trials, litigation, etc.</topic>
    </subject>

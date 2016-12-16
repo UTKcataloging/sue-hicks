@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<mods xmlns:xlink="http://www.w3.org/1999/xlink"
-      xmlns:xs="http://www.w3.org/2001/XMLSchema"
+<mods xmlns="http://www.loc.gov/mods/v3"
       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
-      xmlns="http://www.loc.gov/mods/v3"
+      xmlns:xlink="http://www.w3.org/1999/xlink"
+      xmlns:xs="http://www.w3.org/2001/XMLSchema"
       xsi:schemaLocation="http://www.loc.gov/mods/v3 http://www.loc.gov/standards/mods/v3/mods-3-5.xsd">
    <abstract>Encloses copy of a letter sent to Charles W. Bryan, offers a complimentary book from enclosed catalogue.</abstract>
    <relatedItem displayLabel="Collection" type="host">
@@ -37,14 +37,8 @@
       </holdingSimple>
    </location>
    <titleInfo>
-      <title>Letter from George C. Warren to \Lue K. Hicks\</title>
+      <title>Letter from George C. Warren to "Lue K. Hicks"</title>
    </titleInfo>
-   <name>
-      <namePart>Warren, George C.</namePart>
-      <role>
-         <roleTerm>Creator</roleTerm>
-      </role>
-   </name>
    <subject>
       <topic>Scopes, John Thomas--Trials, litigation, etc.</topic>
    </subject>

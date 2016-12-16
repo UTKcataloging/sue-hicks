@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<mods xmlns:xlink="http://www.w3.org/1999/xlink"
-      xmlns:xs="http://www.w3.org/2001/XMLSchema"
+<mods xmlns="http://www.loc.gov/mods/v3"
       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
-      xmlns="http://www.loc.gov/mods/v3"
+      xmlns:xlink="http://www.w3.org/1999/xlink"
+      xmlns:xs="http://www.w3.org/2001/XMLSchema"
       xsi:schemaLocation="http://www.loc.gov/mods/v3 http://www.loc.gov/standards/mods/v3/mods-3-5.xsd">
    <abstract>Response to earlier letter on behalf of  Publishing House Methodist Episcopal Church, South, lists available titles related to Evolution, Modernism and Fundamentalism.</abstract>
    <relatedItem displayLabel="Collection" type="host">
@@ -39,12 +39,6 @@
    <titleInfo>
       <title>Letter from  Lamar &amp; Barton publishing agents to Hicks &amp; Hicks</title>
    </titleInfo>
-   <name>
-      <namePart>Lamar &amp; Barton, Agents</namePart>
-      <role>
-         <roleTerm>Creator</roleTerm>
-      </role>
-   </name>
    <name>
       <namePart>Turpin, C.W.</namePart>
       <role>

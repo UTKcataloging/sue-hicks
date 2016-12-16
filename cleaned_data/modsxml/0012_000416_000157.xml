@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<mods xmlns:xlink="http://www.w3.org/1999/xlink"
-      xmlns:xs="http://www.w3.org/2001/XMLSchema"
+<mods xmlns="http://www.loc.gov/mods/v3"
       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
-      xmlns="http://www.loc.gov/mods/v3"
+      xmlns:xlink="http://www.w3.org/1999/xlink"
+      xmlns:xs="http://www.w3.org/2001/XMLSchema"
       xsi:schemaLocation="http://www.loc.gov/mods/v3 http://www.loc.gov/standards/mods/v3/mods-3-5.xsd">
    <abstract>Scopes is seated at a table with a book, surrounded by other trial figures, including Hicks.</abstract>
    <relatedItem displayLabel="Collection" type="host">
@@ -37,14 +37,8 @@
       </holdingSimple>
    </location>
    <titleInfo>
-      <title>\How it started in Dayton Tenn.\</title>
+      <title>"How it started in Dayton Tenn."</title>
    </titleInfo>
-   <name>
-      <namePart>unknown</namePart>
-      <role>
-         <roleTerm>Photographer</roleTerm>
-      </role>
-   </name>
    <subject>
       <topic>Scopes, John Thomas--Trials, litigation, etc.</topic>
    </subject>

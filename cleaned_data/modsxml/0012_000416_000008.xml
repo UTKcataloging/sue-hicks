@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<mods xmlns:xlink="http://www.w3.org/1999/xlink"
-      xmlns:xs="http://www.w3.org/2001/XMLSchema"
+<mods xmlns="http://www.loc.gov/mods/v3"
       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
-      xmlns="http://www.loc.gov/mods/v3"
+      xmlns:xlink="http://www.w3.org/1999/xlink"
+      xmlns:xs="http://www.w3.org/2001/XMLSchema"
       xsi:schemaLocation="http://www.loc.gov/mods/v3 http://www.loc.gov/standards/mods/v3/mods-3-5.xsd">
    <abstract>Handwritten draft of argument </abstract>
    <relatedItem displayLabel="Collection" type="host">
@@ -37,17 +37,11 @@
       </holdingSimple>
    </location>
    <titleInfo>
-      <title>\If one should insult the American flag...\</title>
+      <title>"If one should insult the American flag..."</title>
    </titleInfo>
-   <name authority="naf" valueURI="http://id.loc.gov/authorities/names/no2016128242">
-      <namePart>Hicks, Sue Kerr, 1895-1980</namePart>
-      <role>
-         <roleTerm>Attributed name</roleTerm>
-      </role>
-   </name>
    <subject>
       <topic>Scopes, John Thomas--Trials, litigation, etc.</topic>
    </subject>
    <accessCondition>The copyright interests in this item remain with the creator. For more information contact Special Collections at special@utk.edu.</accessCondition>
-   <note displayLabel="Transcription">If  one should insult the American flag[;] if one should tear down or mutilate the flag of our country, you would strike that man, he would be placed in prison, But, gentlemen of the jury, even one [illegible] [May?] place the [illegible] Church pennant [illegible] the stars [&amp;amp;] Stripes. Are you going to permit them to drag that pennant from it hon[ored?] place, spit upon it, and drag it through the [dust and dirt?] of agnosticism [&amp;amp;] communism.</note>
+   <note displayLabel="Transcription">If  one should insult the American flag[;] if one should tear down or mutilate the flag of our country, you would strike that man, he would be placed in prison, But, gentlemen of the jury, even one [illegible] [May?] place the [illegible] Church pennant [illegible] the stars [&amp;] Stripes. Are you going to permit them to drag that pennant from it hon[ored?] place, spit upon it, and drag it through the [dust and dirt?] of agnosticism [&amp;] communism.</note>
 </mods>

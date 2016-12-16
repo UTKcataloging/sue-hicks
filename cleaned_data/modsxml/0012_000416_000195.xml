@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<mods xmlns:xlink="http://www.w3.org/1999/xlink"
-      xmlns:xs="http://www.w3.org/2001/XMLSchema"
+<mods xmlns="http://www.loc.gov/mods/v3"
       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
-      xmlns="http://www.loc.gov/mods/v3"
+      xmlns:xlink="http://www.w3.org/1999/xlink"
+      xmlns:xs="http://www.w3.org/2001/XMLSchema"
       xsi:schemaLocation="http://www.loc.gov/mods/v3 http://www.loc.gov/standards/mods/v3/mods-3-5.xsd">
    <abstract>Explains that telegrams have not reached Bryan, but he would be welcomed on the prosecution; requests recipient contact him.\n</abstract>
    <relatedItem displayLabel="Collection" type="host">
@@ -39,12 +39,6 @@
    <titleInfo>
       <title>Unsigned letter presumably from Hicks &amp; Hicks to Christian Fundamentalists Association</title>
    </titleInfo>
-   <name authority="naf" valueURI="http://id.loc.gov/authorities/names/no2016128242">
-      <namePart>Hicks, Sue Kerr, 1895-1980</namePart>
-      <role>
-         <roleTerm>Attributed name</roleTerm>
-      </role>
-   </name>
    <subject>
       <topic>Scopes, John Thomas--Trials, litigation, etc.</topic>
    </subject>

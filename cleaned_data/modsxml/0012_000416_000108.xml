@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<mods xmlns:xlink="http://www.w3.org/1999/xlink"
-      xmlns:xs="http://www.w3.org/2001/XMLSchema"
+<mods xmlns="http://www.loc.gov/mods/v3"
       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
-      xmlns="http://www.loc.gov/mods/v3"
+      xmlns:xlink="http://www.w3.org/1999/xlink"
+      xmlns:xs="http://www.w3.org/2001/XMLSchema"
       xsi:schemaLocation="http://www.loc.gov/mods/v3 http://www.loc.gov/standards/mods/v3/mods-3-5.xsd">
    <abstract>Pamphlet includes poem originally published in Saturday Evening Post, with handwritten note attributing the last stanza to a C.B.</abstract>
    <relatedItem displayLabel="Collection" type="host">
@@ -37,14 +37,8 @@
       </holdingSimple>
    </location>
    <titleInfo>
-      <title>\Jackasses: A Satire on Evolution\</title>
+      <title>"Jackasses: A Satire on Evolution"</title>
    </titleInfo>
-   <name>
-      <namePart>Reese, Roy</namePart>
-      <role>
-         <roleTerm>Creator</roleTerm>
-      </role>
-   </name>
    <subject>
       <topic>Evolution (Biology)--Religious aspects--Christianity</topic>
    </subject>

@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<mods xmlns:xlink="http://www.w3.org/1999/xlink"
-      xmlns:xs="http://www.w3.org/2001/XMLSchema"
+<mods xmlns="http://www.loc.gov/mods/v3"
       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
-      xmlns="http://www.loc.gov/mods/v3"
+      xmlns:xlink="http://www.w3.org/1999/xlink"
+      xmlns:xs="http://www.w3.org/2001/XMLSchema"
       xsi:schemaLocation="http://www.loc.gov/mods/v3 http://www.loc.gov/standards/mods/v3/mods-3-5.xsd">
    <abstract>Typewritten manuscript by Earl L. Shaub sharply criticizes historical inaccuracy and implications of \Inherit the Wind\ film.</abstract>
    <relatedItem displayLabel="Collection" type="host">
@@ -37,14 +37,8 @@
       </holdingSimple>
    </location>
    <titleInfo>
-      <title>\I was among the invited guests who saw the preview...\</title>
+      <title>"I was among the invited guests who saw the preview..."</title>
    </titleInfo>
-   <name>
-      <namePart>Shaub, Earl L.</namePart>
-      <role>
-         <roleTerm>Creator</roleTerm>
-      </role>
-   </name>
    <subject>
       <topic>Scopes, John Thomas--Trials, litigation, etc.</topic>
    </subject>

@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<mods xmlns:xlink="http://www.w3.org/1999/xlink"
-      xmlns:xs="http://www.w3.org/2001/XMLSchema"
+<mods xmlns="http://www.loc.gov/mods/v3"
       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
-      xmlns="http://www.loc.gov/mods/v3"
+      xmlns:xlink="http://www.w3.org/1999/xlink"
+      xmlns:xs="http://www.w3.org/2001/XMLSchema"
       xsi:schemaLocation="http://www.loc.gov/mods/v3 http://www.loc.gov/standards/mods/v3/mods-3-5.xsd">
    <abstract>Handwritten list of arguments to counter the defense's pro-evolution arguments</abstract>
    <relatedItem displayLabel="Collection" type="host">
@@ -37,17 +37,11 @@
       </holdingSimple>
    </location>
    <titleInfo>
-      <title>\1. Mendel's Law of Heredity disproves evolution...\</title>
+      <title>"1. Mendel's Law of Heredity disproves evolution..."</title>
    </titleInfo>
-   <name authority="naf" valueURI="http://id.loc.gov/authorities/names/no2016128242">
-      <namePart>Hicks, Sue Kerr, 1895-1980</namePart>
-      <role>
-         <roleTerm>Attributed name</roleTerm>
-      </role>
-   </name>
    <subject>
       <topic>Scopes, John Thomas--Trials, litigation, etc.</topic>
    </subject>
    <accessCondition>The copyright interests in this item remain with the creator. For more information contact Special Collections at special@utk.edu.</accessCondition>
-   <note displayLabel="Transcription">1. Mendel's Law of Heredity disproves Evolution.\n\n2. If the rocks show the evidence of evolution why do they not also contain a complete chain? Why the missing links?\n3. Evolution not modern theory. originated in Greece by Alexander [&amp;amp;] [Thales?] six centuries before Christ. They Held all things come from water. (Here cope pages 3 \the [Last?] word on Evolution\ between [illegible])\n4 Nietzche's \Survival of the Fittest\ in Germany and what it did for Germany.\n5 - [Apeman?] or Pithecanthropus a forgery. Pages 14 [&amp;amp;] 15 \Last word in Evolution\. Pilldown Man\n6 - Can't teach Bible in [our?] Schools [Why] teach Evolution.\n6 Survival of Fittest, or natural selection carried to extreme means that we do no good by saving the weak or by vaccination etc.\n7 The jury is not to [stricken: judge] pass upon the wisdom of the law, that has been done by the legislature. It is your duty to enforce the law.\n8 - If man did not evolve from the [lower?] animals but came up from the primate stock as the defense claims, then there is no evidence whatever in the rocks of man's evolution.\n9 - [Ashley?] Fossil [Ruls?] in L.C. 100 miles in diameter [&amp;amp;] 10 ft deep. Has been mined for fertilizer [since?] 1844. No evidence of evolution [ever?] found there.</note>
+   <note displayLabel="Transcription">1. Mendel's Law of Heredity disproves Evolution.\n\n2. If the rocks show the evidence of evolution why do they not also contain a complete chain? Why the missing links?\n3. Evolution not modern theory. originated in Greece by Alexander [&amp;] [Thales?] six centuries before Christ. They Held all things come from water. (Here cope pages 3 "the [Last?] word on Evolution" between [illegible])\n4 Nietzche's "Survival of the Fittest" in Germany and what it did for Germany.\n5 - [Apeman?] or Pithecanthropus a forgery. Pages 14 [&amp;] 15 "Last word in Evolution". Pilldown Man\n6 - Can't teach Bible in [our?] Schools [Why] teach Evolution.\n6 Survival of Fittest, or natural selection carried to extreme means that we do no good by saving the weak or by vaccination etc.\n7 The jury is not to [stricken: judge] pass upon the wisdom of the law, that has been done by the legislature. It is your duty to enforce the law.\n8 - If man did not evolve from the [lower?] animals but came up from the primate stock as the defense claims, then there is no evidence whatever in the rocks of man's evolution.\n9 - [Ashley?] Fossil [Ruls?] in L.C. 100 miles in diameter [&amp;] 10 ft deep. Has been mined for fertilizer [since?] 1844. No evidence of evolution [ever?] found there.</note>
 </mods>
