@@ -22,6 +22,8 @@
 {{if(cells['extent'].value != "IGNORE", '<physicalDescription><extent>' + cells['extent'].value + '</extent>' + if(cells['form'].value != "IGNORE", '<form>' + cells['form'].value + '</form>', '') +''</physicalDescription>, '')}}
 {{if(cells['genre'].value != "IGNORE", '<genre>' + cells['genre'].value + '</genre>', '')}}
 {{if(cells['language'].value != "IGNORE", '	<language><languageTerm type="code" authority="iso639-2b">' + cells['language'].value + '</languageTerm></language>', '')}}
+{{if(cells['name_value'].value != "IGNORE", '<name' + if(cells['name_uri'].value != "IGNORE", ' authority="lcnaf" valueURI="' + cells['name_uri'].value + '"', '') + '><namePart>' + cells['name_value'].value + '</namePart>' + if(cells['name_role'].value != "IGNORE", '<role><roleTerm>' + cells['name_role'].value + '</roleTerm></role>', '') + '</name>,'')}}
+{{if(cells['name2_value'].value != "IGNORE", '<name' + if(cells['name2_uri'].value != "IGNORE", ' authority="lcnaf" valueURI="' + cells['name2_uri'].value + '"', '') + '><namePart>' + cells['name2_value'].value + '</namePart>' + if(cells['name_role2'].value != "IGNORE", '<role><roleTerm>' + cells['name_role2'].value + '</roleTerm></role>', '') + '</name>,'')}}
 </mods>
 ```
 
