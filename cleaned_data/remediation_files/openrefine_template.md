@@ -40,6 +40,11 @@
     </languageOfCataloging>
     <recordOrigin>Created and edited in general conformance to MODS Guidelines (Version 3.5).</recordOrigin>
 </recordInfo>
+<relatedItem displayLabel="Project" type="host">
+      <titleInfo>
+         <title>Of Monkeys and Men: Public and Private Views from the Scopes Trial</title>
+      </titleInfo>
+</relatedItem>
 </mods>
 ```
 
