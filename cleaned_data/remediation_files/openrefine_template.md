@@ -34,7 +34,7 @@
 {{if(cells['public_note 2'].value != "IGNORE", '<note>' + cells['public_note 2'].value + '</note>', '')}}
 {{if(cells['note_provenance'].value != "IGNORE", '<note type="provenance">' + cells['note_provenance'].value + '</note>', '')}}
 <recordInfo>
-	<recordContentSource>University of Tennessee, Knoxville. Libraries</recordContentSource
+	<recordContentSource>University of Tennessee, Knoxville. Libraries</recordContentSource>
     <languageOfCataloging>
     	<languageTerm type="code" authority="iso639-2b">eng</languageTerm>
     </languageOfCataloging>
