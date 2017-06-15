@@ -29,7 +29,7 @@
 {{if(cells['subject_topical 2'].value != "IGNORE", '<subject><topic>' + cells['subject_topical 2'].value + '</topic></subject>, '')}}
 {{if(cells['subject_geographic'].value != "IGNORE", '<subject><geographic>' + cells['subject_geographic'].value + '</geographic></subject>, '')}}
 {{if(cells['subject_name'].value != "IGNORE", '<subject><name><namePart>' + cells['subject_name'].value + '</namePart></name></subject>, '')}}
-{{if(cells['rights'].value != "IGNORE", '<accessCondition type="use and reproduction">' + cells['rights'].value + '</accessCondition>, '')}}
+{{if(cells['rights'].value != "IGNORE", '<accessCondition type="use and reproduction"' + if(cells['rights_uri'].value !="IGNORE", ' xlink:href="' + cells['rights_uri'].value + '"' + '>' + cells['rights'].value + '</accessCondition>, '')}}
 {{if(cells['public_note'].value != "IGNORE", '<note>' + cells['public_note'].value + '</note>, '')}}
 {{if(cells['public_note 2'].value != "IGNORE", '<note>' + cells['public_note 2'].value + '</note>, '')}}
 {{if(cells['note_provenance'].value != "IGNORE", '<note type="provenance">' + cells['note_provenance'].value + '</note>, '')}}
