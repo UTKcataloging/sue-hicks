@@ -38,20 +38,7 @@
 			<xsl:apply-templates select="@*|node()"/>
 		</xsl:copy>
 	</xsl:template>
-	
-	<!-- the name/namePart templates process nameParts that have their valueURIs embedded -->
-	<xsl:template match="name[namePart[contains(.,'| http://')]]">
-		<name authority="naf" valueURI="{substring-after(namePart,'| ')}">
-			<xsl:apply-templates select="@*|node()"/>
-		</name>
-	</xsl:template>
-	
-	<xsl:template match="namePart[contains(.,'| http://')]">
-		<xsl:copy>
-			<xsl:value-of select="normalize-space(substring-before(.,'|'))"/>
-		</xsl:copy>
-	</xsl:template>
-	
+		
 	<!-- ignore nulls -->
 	<xsl:template match="mods/*[self::node()[matches(.,'null')]]"/>
 </xsl:stylesheet>
