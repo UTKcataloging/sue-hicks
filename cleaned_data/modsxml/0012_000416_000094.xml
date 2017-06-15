@@ -4,45 +4,58 @@
       xmlns:xlink="http://www.w3.org/1999/xlink"
       xmlns:xs="http://www.w3.org/2001/XMLSchema"
       xsi:schemaLocation="http://www.loc.gov/mods/v3 http://www.loc.gov/standards/mods/v3/mods-3-5.xsd">
+   <identifier type="filename">0012_000416_000094</identifier>
+   <titleInfo>
+      <title>"Hamilton in NY Convention"</title>
+   </titleInfo>
    <abstract>Handwritten quotes and citations on states' authority.</abstract>
+   <originInfo>
+      <dateCreated>unknown</dateCreated>
+      <place>
+         <placeTerm type="text">Dayton, TN</placeTerm>
+      </place>
+   </originInfo>
    <relatedItem displayLabel="Collection" type="host">
       <titleInfo>
          <title>Sue K. Hicks Papers</title>
       </titleInfo>
-      <identifier>MPA.0136</identifier>
+      <identifier type="local">MPA.0136</identifier>
    </relatedItem>
-   <relatedItem displayLabel="Project" type="host">
-      <titleInfo>
-         <title>Of Monkeys and Men: Public and Private Views from the Scopes Trial</title>
-      </titleInfo>
-   </relatedItem>
-   <identifier type="filename">0012_000416_000094</identifier>
+   <location>
+      <physicalLocation>University of Tennessee, Knoxville.  Special Collections</physicalLocation>
+      <shelfLocator>Box 5, Folder 4</shelfLocator>
+   </location>
+   <physicalDescription>
+      <extent>1 manuscript (3 pages, 8 1/2 in x 5 1/2 in)</extent>
+      <digitalOrigin>reformatted digital</digitalOrigin>
+      <form>manuscripts (document genre)</form>
+   </physicalDescription>
    <language>
       <languageTerm type="code" authority="iso639-2b">eng</languageTerm>
    </language>
+   <name authority="lcnaf"
+         valueURI=" http://id.loc.gov/authorities/names/no2016128242">
+      <namePart>Hicks, Sue Kerr, 1895-1980 </namePart>
+      <role>
+         <roleTerm>Attributed name</roleTerm>
+      </role>
+   </name>
+   <subject>
+      <topic>States' rights (American politics)</topic>
+   </subject>
+   <accessCondition type="use and reproduction"
+                    xlink:href="http://rightsstatements.org/vocab/InC/1.0/">In Copyright</accessCondition>
+   <note>Written on the reverse of The National Reform Association stationery.</note>
    <recordInfo>
-      <recordIdentifier>record_0012_000416_000094</recordIdentifier>
       <recordContentSource>University of Tennessee, Knoxville. Libraries</recordContentSource>
       <languageOfCataloging>
          <languageTerm type="code" authority="iso639-2b">eng</languageTerm>
       </languageOfCataloging>
       <recordOrigin>Created and edited in general conformance to MODS Guidelines (Version 3.5).</recordOrigin>
    </recordInfo>
-   <location>
-      <physicalLocation>University of Tennessee, Knoxville.  Special Collections</physicalLocation>
-      <holdingSimple>
-         <copyInformation>
-            <shelfLocator>Box 5, Folder 4</shelfLocator>
-         </copyInformation>
-      </holdingSimple>
-   </location>
-   <titleInfo>
-      <title>"Hamilton in NY Convention"</title>
-   </titleInfo>
-   <subject>
-      <topic>States' rights (American politics)</topic>
-   </subject>
-   <note>Written on the reverse of The National Reform Association stationery.</note>
-   <accessCondition>The copyright interests in this item remain with the creator. For more information contact Special Collections at special@utk.edu.</accessCondition>
-   <note displayLabel="Transcription">Hamilton in N.Y. Convention:"The States have certain independent powers in which their laws are supreme; -for example, in making and executing laws concerning the punishment of certain crimes - such as murder, theft, &amp;c. - the State cannot be controlled".(I Elliott's Debates, 321.)\nSenator Robt J. Walker, in Senate, June 21, 1842"An exclusive power in one gov-ernment to pass the law, define the crime, and affix the punishment, and yet an exclusive or concurrent power in another government to exe-cute the law and affix the punish-ment, is a solecism not to be found in the Constitution."\nUnited States Supreme Court said:"The uncontrollable exercise of criminal jurisdiction is most se-curely confided to the State tribunals."The Courts of the United States are vested with no authority to scrutinize into the proceedings of the State Courts in criminal cases."(I Wheaton, U.S. 377.)\nAgain:"All those powers which relate to merely municipal legislation, or what may, perhaps, more properly be called internal police, are not thus sur-rendered (to the Federal government) or restrained (by the Constitution); and that, consequently, in relation to these, the authority of a State is complete, unqualified, and Exclusive."(11 Peters U.S. P. 102 &amp;c)\nLikewise in the same case (11 Peters):"To illustrate, no one will deny that a State has a right to punish any individual found within its jurisdiction, who shall have com-mitted an offence within its juris-diction, against its criminal laws."\nIn Pennsylvania (Commonwealth vs. Cobbett) (3 Dallas, 467) Cobbett's counsel tried to remove the case into the Federal Court, and the Court said:"Neither the Constitution nor the Congress ever contemplated that any Court under the United States should have cognizance of anything savoring of criminality against a State. x x That yielding to the prayer of the prisoner would be highly inconvenient in itself, and injurious in the precedent, and that cognizance of it would not be accepted by the Circuit Court, if sent to them; for even consent cannot confer jurisdiction."</note>
+   <relatedItem displayLabel="Project" type="host">
+      <titleInfo>
+         <title>Of Monkeys and Men: Public and Private Views from the Scopes Trial</title>
+      </titleInfo>
+   </relatedItem>
 </mods>
