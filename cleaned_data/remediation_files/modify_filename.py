@@ -18,9 +18,12 @@ def update_filenames(x, url):
                              auth=(credentials['username'], credentials['password']))
             json_string = json.dumps(xmltodict.parse(r.text))
             json_document = json.loads(json_string)
-            pid = json_document["result"]["resultList"]["objectFields"]["pid"]
-            print("\tMoving {0} to {1}.".format(record,json_document["result"]["resultList"]["objectFields"]["pid"]))
-            shutil.copyfile("{0}{1}".format(x,record), "output/{0}.xml".format(pid))
+            try:
+                pid = json_document["result"]["resultList"]["objectFields"]["pid"]
+                print("\tMoving {0} to {1}.".format(record,json_document["result"]["resultList"]["objectFields"]["pid"]))
+                shutil.copyfile("{0}{1}".format(x,record), "output/{0}.xml".format(pid))
+            except:
+                pass
 
 if __name__ == "__main__":
     path = '../modsxml/'
