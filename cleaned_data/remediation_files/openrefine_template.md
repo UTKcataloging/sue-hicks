@@ -17,22 +17,22 @@
 {{if(cells['title'].value != "IGNORE", '<titleInfo><title>' + cells['title'].value + '</title></titleInfo>', '')}}
 {{if(cells['title_other'].value != "IGNORE", '<titleInfo><title type="alternative">' + cells['title_other'].value + '</title></titleInfo>', '')}}
 {{if(cells['abstract'].value != "IGNORE", '<abstract>' + cells['abstract'].value + '</abstract>', '')}}
-{{if(cells['date_text'].value != "IGNORE", '<originInfo><dateCreated>' + cells['date_text'].value + '</dateCreated>' + {{if(cells['place_of_origin'].value != "IGNORE", '<place><placeTerm type="text">' + cells['place_of_origin'].value + '</placeTerm></place>', '')}} + '</originInfo>', '')}}
+{{if(cells['date_text'].value != "IGNORE", '<originInfo><dateCreated>' + cells['date_text'].value + '</dateCreated>' + if(cells['place_of_origin'].value != "IGNORE", '<place><placeTerm type="text">' + cells['place_of_origin'].value + '</placeTerm></place>', '') + '</originInfo>', '')}}
 <relatedItem displayLabel='Collection' type='host'><titleInfo><title>Sue K. Hicks Papers</title></titleInfo><identifier type='local'>MPA.0136</identifier></relatedItem>
 <location><physicalLocation>University of Tennessee, Knoxville.  Special Collections</physcialLocation>{{if(cells['shelf_locator'].value != "IGNORE", '<shelfLocator>' + cells['shelf_locator'].value + '</shelfLocator>', '')}}</location>
 {{if(cells['extent'].value != "IGNORE", '<physicalDescription><extent>' + cells['extent'].value + '</extent>' + '<digitalOrigin>reformatted digital</digitalOrigin>' + if(cells['form'].value != "IGNORE", '<form>' + cells['form'].value + '</form>', '') +'</physicalDescription>', '')}}
 {{if(cells['genre'].value != "IGNORE", '<genre>' + cells['genre'].value + '</genre>', '')}}
 {{if(cells['language'].value != "IGNORE", '	<language><languageTerm type="code" authority="iso639-2b">' + cells['language'].value + '</languageTerm></language>', '')}}
-{{if(cells['name_value'].value != "IGNORE", '<name' + if(cells['name_uri'].value != "IGNORE", ' authority="lcnaf" valueURI="' + cells['name_uri'].value + '"', '') + '><namePart>' + cells['name_value'].value + '</namePart>' + if(cells['name_role'].value != "IGNORE", '<role><roleTerm>' + cells['name_role'].value + '</roleTerm></role>', '') + '</name>,'')}}
-{{if(cells['name2_value'].value != "IGNORE", '<name' + if(cells['name2_uri'].value != "IGNORE", ' authority="lcnaf" valueURI="' + cells['name2_uri'].value + '"', '') + '><namePart>' + cells['name2_value'].value + '</namePart>' + if(cells['name_role 2'].value != "IGNORE", '<role><roleTerm>' + cells['name_role 2'].value + '</roleTerm></role>', '') + '</name>,'')}}
-{{if(cells['subject_topical'].value != "IGNORE", '<subject><topic>' + cells['subject_topical'].value + '</topic></subject>, '')}}
-{{if(cells['subject_topical 2'].value != "IGNORE", '<subject><topic>' + cells['subject_topical 2'].value + '</topic></subject>, '')}}
-{{if(cells['subject_geographic'].value != "IGNORE", '<subject><geographic>' + cells['subject_geographic'].value + '</geographic></subject>, '')}}
-{{if(cells['subject_name'].value != "IGNORE", '<subject><name><namePart>' + cells['subject_name'].value + '</namePart></name></subject>, '')}}
-{{if(cells['rights'].value != "IGNORE", '<accessCondition type="use and reproduction"' + if(cells['rights_uri'].value !="IGNORE", ' xlink:href="' + cells['rights_uri'].value + '"' + '>' + cells['rights'].value + '</accessCondition>, '')}}
-{{if(cells['public_note'].value != "IGNORE", '<note>' + cells['public_note'].value + '</note>, '')}}
-{{if(cells['public_note 2'].value != "IGNORE", '<note>' + cells['public_note 2'].value + '</note>, '')}}
-{{if(cells['note_provenance'].value != "IGNORE", '<note type="provenance">' + cells['note_provenance'].value + '</note>, '')}}
+{{if(cells['name_value'].value != "IGNORE", '<name' + if(cells['name_uri'].value != "IGNORE", ' authority="lcnaf" valueURI="' + cells['name_uri'].value + '"', '') + '><namePart>' + cells['name_value'].value + '</namePart>' + if(cells['name_role'].value != "IGNORE", '<role><roleTerm>' + cells['name_role'].value + '</roleTerm></role>', '') + '</name>','')}}
+{{if(cells['name2_value'].value != "IGNORE", '<name' + if(cells['name2_uri'].value != "IGNORE", ' authority="lcnaf" valueURI="' + cells['name2_uri'].value + '"', '') + '><namePart>' + cells['name2_value'].value + '</namePart>' + if(cells['name_role 2'].value != "IGNORE", '<role><roleTerm>' + cells['name_role 2'].value + '</roleTerm></role>', '') + '</name>','')}}
+{{if(cells['subject_topical'].value != "IGNORE", '<subject><topic>' + cells['subject_topical'].value + '</topic></subject>', '')}}
+{{if(cells['subject_topical 2'].value != "IGNORE", '<subject><topic>' + cells['subject_topical 2'].value + '</topic></subject>', '')}}
+{{if(cells['subject_geographic'].value != "IGNORE", '<subject><geographic>' + cells['subject_geographic'].value + '</geographic></subject>', '')}}
+{{if(cells['subject_name'].value != "IGNORE", '<subject><name><namePart>' + cells['subject_name'].value + '</namePart></name></subject>', '')}}
+{{if(cells['rights'].value != "IGNORE", '<accessCondition type="use and reproduction"' + if(cells['rights_uri'].value !="IGNORE", ' xlink:href="' + cells['rights_uri'].value + '"', '') + '>' + cells['rights'].value + '</accessCondition>', '')}}
+{{if(cells['public_note'].value != "IGNORE", '<note>' + cells['public_note'].value + '</note>', '')}}
+{{if(cells['public_note 2'].value != "IGNORE", '<note>' + cells['public_note 2'].value + '</note>', '')}}
+{{if(cells['note_provenance'].value != "IGNORE", '<note type="provenance">' + cells['note_provenance'].value + '</note>', '')}}
 </mods>
 ```
 
