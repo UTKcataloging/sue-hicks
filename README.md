@@ -24,6 +24,7 @@ This repository includes all metadata from the Sue Hicks Collection for the "[Of
         |-- SueHicks_MODS_collection.xml
         |-- sue-hicks-test.xml
         |-- short-example.xml
+        |-- open_refine_template.md
 |-- original_data
     |-- Sue_Hicks.csv
 
