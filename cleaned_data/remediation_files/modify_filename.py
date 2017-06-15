@@ -12,9 +12,11 @@ credentials = {"username": "user", "password": "pass"}
 def update_filenames(x, url):
     for item in os.walk(x):
         for record in item[2]:
-            print(record.strip('.xml'))
-            r = requests.get("{0}?query=identifier%7E{1}&pid=true".format(url, record.strip('.xml')), auth=(credentials['username'], credentials['password']))
-            print(r)
+            r = requests.get("{0}?query=identifier%7E{1}&pid=true&resultFormat=xml".format(url, record.strip('.xml')),
+                             auth=(credentials['username'], credentials['password']))
+            json_string = json.dumps(xmltodict.parse(r.text))
+            json_document = json.loads(json_string)
+            print(json_document["result"])
 
 if __name__ == "__main__":
     path = '../modsxml/'
